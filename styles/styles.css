@@ -92,6 +92,10 @@ button {
     color: var(--slate);
 }
 
+.header address a:hover {
+    color: var(--ocean);
+}
+
 /*---------------------main section 1---------------*/
 .main-first-secion {
     height: 600px;
@@ -114,6 +118,11 @@ button {
     border-radius: 4px;
     padding: 16px 32px;
     height: 56px;
+    cursor: pointer;
+}
+
+.main-order-button:hover {
+    background: var(--ocean);
 }
 
 /*---------------------main advantage----------------*/
