@@ -1,0 +1,165 @@
+
+:root {
+    --ocean: #404BBF;
+    --iris: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white:#FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+/*---------------------global-----------------------*/
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    background-color: var(--cloud);
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 16px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: medium;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+}
+
+.logo-web-word {
+    color: var(--iris);
+}
+
+/*---------------------header-----------------------*/
+.header {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--cornflower);
+    height: 72px;
+}
+
+.header-logo-a {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    color: var(--navy-blue);
+    background-color: var(--white);
+    text-transform: uppercase;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    height: 24px;
+}
+
+.header-nav-ul {
+    height: 24px;
+}
+
+.header-nav-ul a {
+    color: var(--navy-blue);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.header address a {
+    font-style: normal;
+    line-height: 1.5;
+    color: var(--slate);
+}
+
+/*---------------------main section 1---------------*/
+.main-first-secion {
+    height: 600px;
+    background-color: var(--navy-blue);
+}
+
+.main-title {
+    color: var(--white);
+    line-height: 1.07143;
+    text-align: center;
+    height: 120px;
+}
+
+.main-order-button {
+    color: var(--white);
+    font-weight: 500;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    line-height: 1.5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    height: 56px;
+}
+
+/*---------------------main advantage----------------*/
+.main-advantage-section {
+    height: 104px;
+}
+
+.main-advantage-section li {
+    height: 104px;
+}
+
+/*---------------------main team---------------------*/
+.main-team-section {
+    height: 732px;
+}
+
+.team-card {
+    height: 380px;
+}
+
+.team-card-text {
+    height: 56px;
+}
+
+/*---------------------main portfolio----------------*/
+.main-portfolio-section {
+    height: 1000px;
+}
+
+.portfolio-card {
+    height: 420px;
+}
+
+.portfolio-card-text {
+    height: 120px;
+}
+
+/*---------------------footer------------------------*/
+.footer {
+    height: 312px;
+}
+
+.footer-logo-card {
+    height: 112px;
+}
+
+.footer-logo-card a {
+    height: 24px;
+}
