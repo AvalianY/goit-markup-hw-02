@@ -19,7 +19,7 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
     color: var(--slate);
-    background-color: var(--cloud);
+    background-color: var(--white);
 }
 
 h1 {
@@ -68,7 +68,6 @@ button {
 .header-logo-a {
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    color: var(--navy-blue);
     background-color: var(--white);
     text-transform: uppercase;
     line-height: 1.16667;
@@ -84,15 +83,28 @@ button {
     color: var(--navy-blue);
     font-weight: 500;
     line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
-.header address a {
+.header-logo-a {
+    color: var(--navy-blue);
+}
+
+.header-logo-a span {
+    font-weight: 700px;
+    line-height: 1.17;
+}
+
+.header address {
     font-style: normal;
+    font-size: 16px;
     line-height: 1.5;
     color: var(--slate);
+    letter-spacing: 0.02em
 }
 
-.header address a:hover {
+.header a:focus, .header a:hover {
     color: var(--ocean);
 }
 
@@ -104,9 +116,10 @@ button {
 
 .main-title {
     color: var(--white);
-    line-height: 1.07143;
+    line-height: 1.07;
     text-align: center;
     height: 120px;
+    letter-spacing: 0.02em;
 }
 
 .main-order-button {
@@ -118,10 +131,9 @@ button {
     border-radius: 4px;
     padding: 16px 32px;
     height: 56px;
-    cursor: pointer;
 }
 
-.main-order-button:hover {
+.main-order-button:hover, .main-order-button:focus {
     background: var(--ocean);
 }
 
