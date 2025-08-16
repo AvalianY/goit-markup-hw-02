@@ -122,9 +122,35 @@ button {
 }
 
 /*---------------------main advantage----------------*/
+.main-h3 {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
 
+.main-p-advantage {
+    line-height: 1.5;
+}
 /*---------------------main team---------------------*/
+.main-team-section {
+    color: var(--cloud);
+}
 
+.main-team-section li {
+    background-color: var(--white);
+}
+
+.main-team-title {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+.main-p-team {
+    line-height: 1.5;
+}
 /*---------------------main portfolio----------------*/
 
 /*---------------------footer------------------------*/
