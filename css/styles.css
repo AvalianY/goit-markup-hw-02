@@ -54,10 +54,6 @@ button {
     line-height: 24px;
 }
 
-.logo-web-word {
-    color: var(--iris);
-}
-
 /*---------------------header-----------------------*/
 .header {
     background-color: var(--white);
@@ -65,18 +61,21 @@ button {
     height: 72px;
 }
 
+
 .header-logo-a {
     font-family: Raleway, sans-serif;
     font-size: 18px;
+    color: var(--iris);
     background-color: var(--white);
     text-transform: uppercase;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    height: 24px;
 }
 
-.header-nav-ul {
-    height: 24px;
+.logo-web-word {
+    font-weight: 700px;
+    line-height: 1.17;
+    color: var(--grey);
 }
 
 .header-nav-ul a {
@@ -87,16 +86,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-.header-logo-a {
-    color: var(--navy-blue);
-}
-
-.header-logo-a span {
-    font-weight: 700px;
-    line-height: 1.17;
-}
-
-.header address {
+.header address a {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -104,13 +94,12 @@ button {
     letter-spacing: 0.02em
 }
 
-.header a:focus, .header a:hover {
+.nav-ref:focus,
+.nav-ref:hover {
     color: var(--ocean);
 }
-
 /*---------------------main section 1---------------*/
 .main-first-secion {
-    height: 600px;
     background-color: var(--navy-blue);
 }
 
@@ -118,19 +107,14 @@ button {
     color: var(--white);
     line-height: 1.07;
     text-align: center;
-    height: 120px;
     letter-spacing: 0.02em;
 }
 
 .main-order-button {
     color: var(--white);
     font-weight: 500;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
     line-height: 1.5;
-    border-radius: 4px;
-    padding: 16px 32px;
-    height: 56px;
 }
 
 .main-order-button:hover, .main-order-button:focus {
@@ -138,49 +122,9 @@ button {
 }
 
 /*---------------------main advantage----------------*/
-.main-advantage-section {
-    height: 104px;
-}
-
-.main-advantage-section li {
-    height: 104px;
-}
 
 /*---------------------main team---------------------*/
-.main-team-section {
-    height: 732px;
-}
-
-.team-card {
-    height: 380px;
-}
-
-.team-card-text {
-    height: 56px;
-}
 
 /*---------------------main portfolio----------------*/
-.main-portfolio-section {
-    height: 1000px;
-}
-
-.portfolio-card {
-    height: 420px;
-}
-
-.portfolio-card-text {
-    height: 120px;
-}
 
 /*---------------------footer------------------------*/
-.footer {
-    height: 312px;
-}
-
-.footer-logo-card {
-    height: 112px;
-}
-
-.footer-logo-card a {
-    height: 24px;
-}
