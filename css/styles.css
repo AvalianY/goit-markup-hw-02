@@ -71,7 +71,7 @@ button {
     letter-spacing: 0.03em;
 }
 
-.footer-logo-word {
+.header-logo-word {
     font-weight: 700px;
     line-height: 1.17;
     color: var(--grey);
@@ -125,7 +125,7 @@ button {
 }
 
 /*---------------------main advantage----------------*/
-.main-h3 {
+.main-h {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
@@ -173,7 +173,11 @@ button {
     background-color: var(--navy-blue);
 }
 
-.header-logo-word {
+.footer a {
+    background-color: var(--navy-blue);
+}
+
+.footer-logo-word {
     color: var(--cloud);
     font-weight: 700px;
 }
