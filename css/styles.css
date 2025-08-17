@@ -179,6 +179,7 @@ button {
 
 .footer-logo-word {
     color: var(--cloud);
+    line-height: 1.17;
     font-weight: 700px;
 }
 
