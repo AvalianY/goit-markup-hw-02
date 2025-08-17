@@ -61,7 +61,7 @@ button {
 
 .header-logo-a {
     font-family: Raleway, sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 18px;
     color: var(--iris);
     background-color: var(--white);
@@ -71,8 +71,6 @@ button {
 }
 
 .header-logo-word {
-    font-weight: 700px;
-    line-height: 1.17;
     color: var(--grey);
 }
 
@@ -172,21 +170,14 @@ button {
     background-color: var(--navy-blue);
 }
 
-.footer-logo-a {
-    font-family: Raleway, sans-serif;
-    font-weight: 700px;
-    font-size: 18px;
-    color: var(--iris);
-    background-color: ar(--navy-blue);
-    text-transform: uppercase;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+.footer a {
+    background-color: var(--navy-blue);
 }
 
 .footer-logo-word {
     color: var(--cloud);
     line-height: 1.17;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .footer-slogan {
