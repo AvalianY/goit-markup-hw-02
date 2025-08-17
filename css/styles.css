@@ -59,7 +59,6 @@ button {
     background-color: var(--white);
 }
 
-
 .header-logo-a {
     font-family: Raleway, sans-serif;
     font-weight: 700px;
@@ -173,8 +172,15 @@ button {
     background-color: var(--navy-blue);
 }
 
-.footer a {
-    background-color: var(--navy-blue);
+.footer-logo-a {
+    font-family: Raleway, sans-serif;
+    font-weight: 700px;
+    font-size: 18px;
+    color: var(--iris);
+    background-color: ar(--navy-blue);
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .footer-logo-word {
