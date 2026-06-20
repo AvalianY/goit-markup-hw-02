@@ -1,0 +1,54 @@
+:root {
+    --ocean: #404BBF;
+    --iris: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+/*---------------------global-----------------------*/
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 16px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: medium;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+}

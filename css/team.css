@@ -1,0 +1,20 @@
+.main-team-section {
+    background-color: var(--cloud);
+}
+
+.main-team-section li {
+    background-color: var(--white);
+}
+
+.main-team-title {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+.main-p-team {
+    line-height: 1.5;
+    color: var(--slate);
+}

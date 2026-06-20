@@ -1,0 +1,9 @@
+.main-h {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.main-p-advantage {
+    line-height: 1.5;
+}
