@@ -4,6 +4,7 @@
 
 .footer a {
     background-color: var(--navy-blue);
+    line-height: 1.33;
 }
 
 .footer-logo-word {

@@ -4,6 +4,7 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+    line-height: 1.2;
 }
 
 .portfolio-card p {

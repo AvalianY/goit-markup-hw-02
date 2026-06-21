@@ -23,7 +23,7 @@ body {
 
 h1 {
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
 }
 
 h2 {
@@ -50,5 +50,5 @@ button {
     cursor: pointer;
     font-weight: medium;
     letter-spacing: 0.04em;
-    line-height: 24px;
+    line-height: 1.5;
 }
