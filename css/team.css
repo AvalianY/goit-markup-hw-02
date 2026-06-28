@@ -2,7 +2,7 @@
     background-color: var(--cloud);
 }
 
-.main-team-section li {
+.team-card {
     background-color: var(--white);
 }
 
@@ -14,13 +14,14 @@
     color: var(--navy-blue);
 }
 
-.main-h {
+.main-team-section .main-h {
     text-align: center;
     line-height: 1.2;
-    text-align: center;
+    color: var(--navy-blue);
 }
 
 .main-p-team {
     line-height: 1.5;
     color: var(--slate);
+    text-align: center;
 }

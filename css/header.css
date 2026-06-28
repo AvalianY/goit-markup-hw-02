@@ -17,7 +17,7 @@
     color: var(--grey);
 }
 
-.header-nav-ul a {
+.header-nav-ul .nav-ref {
     color: var(--navy-blue);
     font-weight: 500;
     line-height: 1.5;
@@ -29,12 +29,12 @@
     font-style: normal;
 }
 
-.header address a {
+.header-address .nav-ref {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     color: var(--slate);
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .nav-ref:focus,
